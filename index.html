@@ -13,10 +13,21 @@
         img {
             max-width: 100%;
             vertical-align: top;
+            /* display: none; */
+        }
+        img#responsive{
+            display: none;
+        }
+        @media screen and (max-wigth: 768px)
+        {
+            img#responsive {
+                display: block;
+            }
         }
     </style>
 </head>
 <body>
+    <img src="Fondo2.jpg" alt="" id="responsive">
     <img src="header.jpg" alt="">
     <img src="center.jpg" alt="">
     <img src="pie1.png" alt="">
